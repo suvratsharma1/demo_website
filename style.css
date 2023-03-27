@@ -1,0 +1,45 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style: none;
+    margin-left: 2rem;
+    font-weight: bold;
+    padding-top: 1vw;
+}
+.welcomepic{
+    width: 95vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    height: 100vh;
+    
+}
+.footer{
+    background-color: grey;
+    color: yellow;
+    text-align: center;
+    hieght: 80px;
+}
+/* .footer>p{
+    size: 20px;
+} */
+.navbar>nav, nav>ol{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3vw;
+    margin-right: 2vw;
+    /* padding: 1vw; */
+}
+.skills{
+    margin-top: 3rem;
+    display: flex;
+    text-align: center;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: red;
+}
